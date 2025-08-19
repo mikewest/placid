@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Mike's Chrome",
+  "description": "Automates some aspects of setting up a new Chrome profile the way I prefer.",
+  "version": "0.1",
+
+  "chrome_url_overrides": {
+    "newtab": "ntp.html"
+  },
+
+  "background": {
+    "service_worker": "sw.js"
+  },
+  "permissions": [ "contentSettings", "privacy" ]
+}
