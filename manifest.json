@@ -1,8 +1,12 @@
 {
   "manifest_version": 3,
-  "name": "Mike's Chrome",
-  "description": "Automates some aspects of setting up a new Chrome profile the way I prefer.",
+  "name": "Placid",
+  "description": "Configures Chrome in a way that hardens some boundaries, reducing distraction.",
   "version": "0.1",
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
 
   "chrome_url_overrides": {
     "newtab": "ntp.html"
