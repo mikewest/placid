@@ -74,7 +74,9 @@ const settingsToBlockEverywhere = [
   // "vr",
   // "sensors",
   // "serialPorts",
-  // "windowManagement",
+  // "windowManagement"
+  //
+  // Filed https://crbug.com/441665280 to discuss.
 ];
 
 const setSettingFor = async (pattern, type, value) => {
