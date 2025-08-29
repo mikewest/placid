@@ -23,6 +23,9 @@
       h1 {
         text-align: right;
       }
+      a, a:visited {
+        color: #276;
+      }
 
     img {
       display: block;
@@ -34,7 +37,7 @@
   <!-- https://unsplash.com/photos/time-lapse-photography-of-water-reaction-kKpTHqM2K-c -->
 <article>
   <img src="640x400.png" alt="A screenshot of a nicely blank new tab page." width="640" height="400">
-  <h1>Placid</h1>
+  <h1><a href="https://chromewebstore.google.com/detail/jlddhoeomfoechbkoagjlhcodhklnldi">Install Placid</a></h1>
   <p>The Placid Chrome extension aims to harden some boundaries, reducing distraction while you browse. Installing it has the following implications:</p>
   <ul>
     <li>Your new tab page will be set to a blank, grey slate.
@@ -89,7 +92,7 @@
   <p>There are some additional settings I'd like it to control, but we'll need to extend the APIs first. Working on that.</p>
 
   <h2 id="privacy">Privacy Policy</h2>
-  <p>Placid does not collect data. It executes code once upon installation to perform the configuration described above. The new tab page replacement has no JavaScript.
+  <p>Placid does not collect data. It executes code once upon installation and once per update to perform the configuration described above. The new tab page replacement has no JavaScript, and makes no remote requests.
 
   <h2 id="contribute">Something missing?</h2>
   <p>The code is available on GitHub at <a href="https://github.com/mikewest/placid/">mikewest/placid</a>. Please do <a href="https://github.com/mikewest/placid/issues/new">file an issue</a> or send a PR if you're so inclined.</p>
