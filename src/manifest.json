@@ -15,5 +15,7 @@
   "background": {
     "service_worker": "sw.js"
   },
-  "permissions": [ "contentSettings", "privacy" ]
+  "action": {},
+
+  "permissions": [ "activeTab", "contentSettings", "privacy", "storage", "tabs" ]
 }
